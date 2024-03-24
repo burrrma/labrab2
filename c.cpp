@@ -30,12 +30,12 @@ int main(){
 	int p1;
 	int p2;
 	for(int i = 0; i < 1000000; i++){
-		if(player1.empty()){
+		if(player2.empty()){
 			tmp = -1;
 			std::cout << "first" << " " << i << std::endl;
 			break;
 		}
-                if(player2.empty()){
+                if(player1.empty()){
                         tmp = -1;
                         std::cout << "second" << " " << i << std::endl;
                         break;
